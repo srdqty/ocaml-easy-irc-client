@@ -5,6 +5,6 @@ An OCaml IRC client library written with ease of use as the main goal.
 == How To Use
 
 * You can read the comments in
-https://github.com/astrazeta/ocaml-easy-irc-client/blob/master/src/easy_irc_client.mli[easy_irc_client.mli]
+https://github.com/srdqty/ocaml-easy-irc-client/blob/master/src/easy_irc_client.mli[easy_irc_client.mli]
 to learn the API. To see an example usage of the library, check out
-https://github.com/astrazeta/irc-live-stream-bot[irc-live-stream-bot].
+https://github.com/srdqty/irc-live-stream-bot[irc-live-stream-bot].

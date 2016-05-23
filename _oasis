@@ -8,7 +8,7 @@ Maintainers : Sophia Donataccio <srdqty@gmail.com>
 
 License     : MIT
 LicenseFile : LICENSE.txt
-Homepage    : https://github.com/astrazeta/ocaml-easy-irc-client
+Homepage    : https://github.com/srdqty/ocaml-easy-irc-client
 
 Plugins          : StdFiles (0.4), DevFiles (0.4), META (0.4)
 XStdFilesREADME  : false
@@ -53,5 +53,5 @@ Document "api-easy-irc-client"
 
 SourceRepository head
   Type     : git
-  Location : git://github.com/astrazeta/ocaml-easy-irc-client
-  Browser  : https://github.com/astrazeta/ocaml-easy-irc-client
+  Location : git://github.com/srdqty/ocaml-easy-irc-client
+  Browser  : https://github.com/srdqty/ocaml-easy-irc-client

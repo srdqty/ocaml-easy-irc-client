@@ -6662,7 +6662,7 @@ let setup_t =
           maintainers = ["Sophia Donataccio <srdqty@gmail.com>"];
           authors = ["Sophia Donataccio <srdqty@gmail.com>"];
           homepage =
-            Some "https://github.com/astrazeta/ocaml-easy-irc-client";
+            Some "https://github.com/srdqty/ocaml-easy-irc-client";
           synopsis =
             "An OCaml IRC client library written with ease of use as the main goal.";
           description =
@@ -6779,10 +6779,10 @@ let setup_t =
                    {
                       src_repo_type = Git;
                       src_repo_location =
-                        "git://github.com/astrazeta/ocaml-easy-irc-client";
+                        "git://github.com/srdqty/ocaml-easy-irc-client";
                       src_repo_browser =
                         Some
-                          "https://github.com/astrazeta/ocaml-easy-irc-client";
+                          "https://github.com/srdqty/ocaml-easy-irc-client";
                       src_repo_module = None;
                       src_repo_branch = None;
                       src_repo_tag = None;
