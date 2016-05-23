@@ -1,0 +1,57 @@
+OASISFormat : 0.4
+Name        : easy-irc-client
+Version     : 0.0.1
+
+Authors     : Sophia Donataccio <srdqty@gmail.com>
+Copyrights  : (C) 2014 Sophia Donataccio <srdqty@gmail.com>
+Maintainers : Sophia Donataccio <srdqty@gmail.com>
+
+License     : MIT
+LicenseFile : LICENSE.txt
+Homepage    : https://github.com/astrazeta/ocaml-easy-irc-client
+
+Plugins          : StdFiles (0.4), DevFiles (0.4), META (0.4)
+XStdFilesREADME  : false
+XStdFilesAUTHORS : false
+
+BuildTools : ocamlbuild
+
+Synopsis:
+  An OCaml IRC client library written with ease of use as the main goal.
+Description:
+  An OCaml IRC client library written with ease of use as the main goal.
+
+
+# +-------------------------------------------------------------------+
+# | Library                                                           |
+# +-------------------------------------------------------------------+
+
+Library "easy-irc-client"
+  Path            : src
+  BuildDepends    : threads, async
+  FindlibName     : easy-irc-client
+  ByteOpt         : -bin-annot
+  NativeOpt       : -bin-annot
+  Modules         : Easy_irc_client
+  InternalModules : Message_util
+
+# +-------------------------------------------------------------------+
+# | Documentation                                                     |
+# +-------------------------------------------------------------------+
+
+Document "api-easy-irc-client"
+  Title                : API reference for easy-irc-client
+  Type                 : ocamlbuild (0.4)
+  BuildTools          +: ocamldoc
+  Install              : false
+  XOCamlbuildPath      : src
+  XOCamlbuildLibraries : easy-irc-client
+
+# +-------------------------------------------------------------------+
+# | Repository                                                        |
+# +-------------------------------------------------------------------+
+
+SourceRepository head
+  Type     : git
+  Location : git://github.com/astrazeta/ocaml-easy-irc-client
+  Browser  : https://github.com/astrazeta/ocaml-easy-irc-client

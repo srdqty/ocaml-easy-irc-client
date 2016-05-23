@@ -1,0 +1,24 @@
+# OASIS_START
+# DO NOT EDIT (digest: d4c29342c7b47f76d140dc09cf409b9a)
+# Ignore VCS directories, you can use the same kind of rule outside
+# OASIS_START/STOP if you want to exclude directories that contains
+# useless stuff for the build process
+<**/.svn>: -traverse
+<**/.svn>: not_hygienic
+".bzr": -traverse
+".bzr": not_hygienic
+".hg": -traverse
+".hg": not_hygienic
+".git": -traverse
+".git": not_hygienic
+"_darcs": -traverse
+"_darcs": not_hygienic
+# Library easy-irc-client
+"src/easy-irc-client.cmxs": use_easy-irc-client
+<src/easy-irc-client.{cma,cmxa}>: oasis_library_easy_irc_client_byte
+<src/*.ml{,i}>: oasis_library_easy_irc_client_byte
+<src/easy-irc-client.{cma,cmxa}>: oasis_library_easy_irc_client_native
+<src/*.ml{,i}>: oasis_library_easy_irc_client_native
+<src/*.ml{,i}>: pkg_async
+<src/*.ml{,i}>: pkg_threads
+# OASIS_STOP

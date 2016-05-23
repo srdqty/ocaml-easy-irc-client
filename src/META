@@ -1,0 +1,13 @@
+# OASIS_START
+# DO NOT EDIT (digest: 326ccce4f37e5b97617ce0d2d3721e7f)
+version = "0.0.1"
+description =
+"An OCaml IRC client library written with ease of use as the main goal."
+requires = "threads async"
+archive(byte) = "easy-irc-client.cma"
+archive(byte, plugin) = "easy-irc-client.cma"
+archive(native) = "easy-irc-client.cmxa"
+archive(native, plugin) = "easy-irc-client.cmxs"
+exists_if = "easy-irc-client.cma"
+# OASIS_STOP
+

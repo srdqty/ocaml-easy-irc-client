@@ -1,0 +1,9 @@
+fixup ocamldoc documentation of easy_irc_client.mli
+ocamldoc documentation of easy_irc_client.ml
+ocamldoc documentation of message_util.mli
+ocamldoc documentation of message_util.ml
+
+clean up code in easy_irc_client.mli
+clean up code in easy_irc_client.ml
+clean up code in message_util.mli
+clean up code in message_util.ml
